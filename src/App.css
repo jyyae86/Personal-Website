@@ -21,6 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  font-family: "DMSans-Regular", "DMSans-Bold";
   color: white;
 }
 
@@ -35,4 +36,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@font-face {
+  font-family: "DMSans-Regular";
+  src: local("DMSans-Regular"), url(./fonts/DMSans-Regular.ttf) format("truetype");
+  font-family: "DMSans-Bold";
+  src: local("DMSans-Bold"), url(./fonts/DMSans-Bold.ttf) format("truetype");
 }
